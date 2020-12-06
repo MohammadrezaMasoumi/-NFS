@@ -12,7 +12,7 @@ For the  storageclass apply provisioner.yaml
 
 kubectl apply -f provisioner.yaml
 
-## NOTE: Edit PROVISIONER_NAME & NFS_SERVER ENV in container section , server & path in volumes section and specify your NFS Server Information.
+*NOTE: Edit PROVISIONER_NAME & NFS_SERVER ENV in container section , server & path in volumes section and specify your NFS Server Information*
 
 and
 for the last one apply storage class 
