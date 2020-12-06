@@ -14,7 +14,9 @@ kubectl apply -f provisioner.yaml
 
 NOTE: Edit PROVISIONER_NAME & NFS_SERVER ENV in container section , server & path in volumes section and specify your NFS Server Information.
 
-and for the last one apply storage class : 
+and
+for the last one apply storage class 
+
 kubectl apply -f storageclass.yaml.
 
 for the test you can run 4-pvc-nfs.yaml and 4-busybox-pv-nfs.yaml to test your NFS Provisioner.
